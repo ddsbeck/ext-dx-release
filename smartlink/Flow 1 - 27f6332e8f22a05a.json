@@ -1,0 +1,59 @@
+[
+  {
+    "id": "27f6332e8f22a05a",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "extensionId": "7588da55-0f36-4a6a-8f46-8a4421aeb706"
+  },
+  {
+    "id": "d4da67dc3161ad8d",
+    "type": "SchematicsDX Integration",
+    "z": "27f6332e8f22a05a",
+    "name": "",
+    "actionId": "teste",
+    "url": "/7588da55-0f36-4a6a-8f46-8a4421aeb706/schematics-dx/teste",
+    "method": "post",
+    "upload": false,
+    "swaggerDoc": "",
+    "actionParameters": [],
+    "x": 390,
+    "y": 120,
+    "wires": [
+      [
+        "e020c520e491851d",
+        "21b4f058e0420f3e"
+      ]
+    ]
+  },
+  {
+    "id": "e020c520e491851d",
+    "type": "SchematicsDX Integration - Response",
+    "z": "27f6332e8f22a05a",
+    "name": "",
+    "title": "Teste",
+    "response": "Esse é um teste Schematics Integration DX",
+    "responseType": "Information",
+    "x": 890,
+    "y": 140,
+    "wires": []
+  },
+  {
+    "id": "21b4f058e0420f3e",
+    "type": "debug",
+    "z": "27f6332e8f22a05a",
+    "name": "debug 1",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "false",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 820,
+    "y": 40,
+    "wires": []
+  }
+]
