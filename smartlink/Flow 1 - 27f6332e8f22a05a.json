@@ -13,14 +13,14 @@
     "type": "SchematicsDX Integration",
     "z": "27f6332e8f22a05a",
     "name": "",
-    "actionId": "teste",
-    "url": "/7588da55-0f36-4a6a-8f46-8a4421aeb706/schematics-dx/teste",
+    "actionId": "teste2",
+    "url": "/7588da55-0f36-4a6a-8f46-8a4421aeb706/schematics-dx/teste2",
     "method": "post",
     "upload": false,
     "swaggerDoc": "",
     "actionParameters": [],
-    "x": 410,
-    "y": 100,
+    "x": 350,
+    "y": 140,
     "wires": [
       [
         "e020c520e491851d",
@@ -36,8 +36,8 @@
     "title": "Teste",
     "response": "Esse é um teste Schematics Integration DX",
     "responseType": "Information",
-    "x": 890,
-    "y": 140,
+    "x": 850,
+    "y": 260,
     "wires": []
   },
   {
@@ -52,8 +52,8 @@
     "complete": "false",
     "statusVal": "",
     "statusType": "auto",
-    "x": 820,
-    "y": 40,
+    "x": 860,
+    "y": 120,
     "wires": []
   }
 ]
